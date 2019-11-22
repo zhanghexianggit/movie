@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_20"
+    android:orientation="vertical">
+    
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/directro_image"
+        android:layout_width="@dimen/dp_98"
+        android:layout_height="@dimen/dp_120"/>
+
+    <TextView
+        android:id="@+id/directro_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_12"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:text="12131"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+</LinearLayout>

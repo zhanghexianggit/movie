@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141931"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_38"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_20">
+        <ImageView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_24"
+            android:background="@mipmap/icon_location"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="@dimen/dp_56"
+            android:layout_height="@dimen/dp_20"
+            android:text="北京"
+            android:textSize="@dimen/dp_14"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="@dimen/dp_18"
+            android:layout_height="@dimen/dp_18"
+            android:background="@mipmap/icon_search"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_180"/>
+    </LinearLayout>
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/cinema_xRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+</LinearLayout>

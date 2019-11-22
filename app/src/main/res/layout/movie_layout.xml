@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#141931"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_38"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_24"
+                android:background="@mipmap/icon_location"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="@dimen/dp_56"
+                android:layout_height="@dimen/dp_20"
+                android:text="北京"
+                android:textSize="@dimen/dp_14"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_gravity="center_vertical"/>
+            
+            <ImageView
+                android:id="@+id/sousuo"
+                android:layout_width="@dimen/dp_18"
+                android:layout_height="@dimen/dp_18"
+                android:background="@mipmap/icon_search"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dp_180"
+                />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/movie_names"
+            android:layout_width="@dimen/dp_230"
+            android:layout_height="30dp"
+            android:hint="请输入影院名称"
+            android:background="@drawable/login_shape_e"
+            android:padding="@dimen/dp_2"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_10"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:tabTextColor="#fff"
+        android:layout_marginTop="@dimen/dp_5">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

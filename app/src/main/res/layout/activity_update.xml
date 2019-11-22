@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.UpdateActivity"
+    android:orientation="vertical"
+    android:background="#141931">
+    
+    <ImageView
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:background="@mipmap/pio"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_50"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="最新版本"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_14"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="V 2.0"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_12"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="立即更新"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_14"
+        android:layout_gravity="center"
+        android:background="@drawable/login_shape_d"
+        android:layout_marginTop="@dimen/dp_70"/>
+
+</LinearLayout>

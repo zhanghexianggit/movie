@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/xbanner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_180"
+        app:AutoPlayTime="3000"
+        app:pointsVisibility="false"
+        app:isShowNumberIndicator="true"
+        app:pointContainerLeftRightPadding="@dimen/dp_50"
+        android:layout_gravity="center"
+        app:isClipChildrenMode="true"
+        app:pointContainerPosition="BOTTOM"
+        app:pointsPosition="RIGHT"
+        app:tipTextSize="@dimen/sp_14">
+
+    </com.stx.xhb.xbanner.XBanner>
+</LinearLayout>
